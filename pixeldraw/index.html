@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "UTF-8"/>
+    <title>Bekah's Pixel Drawing</title>
+    <link rel="stylesheet" href="draw.css">
+</head>
+<body>
+
+<div id="gridContainer"> </div>
+
+<div class="controls">
+    <button id="clear" onclick="clearButtonHandler()">Clear</button>
+</div>
+
+<div class="controls">
+    <input type="text" id="input_canvasColor" value="#F0F8FF">
+    <button id="button_canvasColor" onclick="changeCanvas()">Change Canvas Color</button>
+</div>
+
+<div class="controls">
+    <input type="text" id="input_pixelColor" value="#800080">
+    <button id="button_pixelColor" onclick="getPixelColor()"> Change Pixel Color</button>
+</div>
+
+<script src="code.js"></script>
+
+</body>

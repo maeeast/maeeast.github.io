@@ -1,0 +1,25 @@
+body {
+    padding: 20px;
+    background-color: #FDF5E6;
+}
+#gridContainer {
+    padding-bottom: 10px;
+}
+table {
+    background-color: #F0F8FF;
+    border-spacing: 0px;
+}
+td {
+    width: 20px;
+    height: 20px;
+}
+td.off{
+    background-color: transparent;
+}
+td.on {
+    background-color: #800080;
+}
+
+.controls {
+    padding: 2px;
+}
