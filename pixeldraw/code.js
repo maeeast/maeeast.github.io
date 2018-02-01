@@ -47,13 +47,13 @@ function cellClickHandler() {
 }
 
 function clearButtonHandler() {
-    var cellsList = document.getElementsByClassName("on");
+    var cellsList = document.getElementsByClassName("off");
     var cells = [];
     for (var i = 0; i < cellsList.length; i++) {
         cells.push(cellsList[i]);
     }
     for (var i = 0; i < cells.length; i++) {
-        cells[i].setAttribute("class", "off");
+        cells[i].setAttribute("class", "on");
     }
 }
 
@@ -64,7 +64,6 @@ function changeCanvas() {
 
 function getPixelColor() {
     var storedColor = document.getElementById("input_pixelColor").value;
-    return storedColor;
 }
 
 
