@@ -55,6 +55,7 @@ p {
 .links ul li a {
     color: #336699;
     text-decoration: none;
+	font-size: medium;
 }
 
 .links ul li a:hover {
