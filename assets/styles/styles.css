@@ -113,12 +113,17 @@ h1, h2, h3, h4, h5, h6 {
 		border: 2px solid rgba(107, 133, 158, 0.91);
 		border-radius: 50px;
 		background: white;
+		white-space: nowrap;
 }
 
 .cta .cta-button:hover, .cta .cta-button:focus {
 		box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
 		background-color: rgba(107, 133, 158, 0.91);
 		color: white;
+}
+
+.resume-button {
+	margin-bottom: 2.5rem;
 }
 
 #about i {
@@ -166,6 +171,9 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "Maven pro", sans-serif;
 	/*font-weight: 500;*/
 }
+.experience-topics ul {
+	margin: 0;
+}	
 
 .experience-topics ul li {
 	list-style: none;
@@ -298,7 +306,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "Maven pro", sans-serif;
 	font-weight: 300;
 	font-size: 1.2em;
-	padding: 0 4em;
+	padding: 0 4vw;
 }
 
 #footer-cta > p > span {
