@@ -3,13 +3,16 @@ const Portfolio = function() {
 		var words = [
 			{
 				text: "WordPress",
-				weight: 12.3
+				weight: 13
+			}, {
+				text: "Squarespace",
+				weight: 14
 			}, {
 				text: "HTML",
 				weight: 8
 			}, {
 				text: "Javascript",
-				weight: 14
+				weight: 9
 			}, {
 				text: "Angular",
 				weight: 3
