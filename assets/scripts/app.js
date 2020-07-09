@@ -77,6 +77,7 @@ const Portfolio = function() {
 			contentType: 'text',
 			callback: function() {
 				$("#writing-text").css({"color": "#fff", "background-color": "#6B859E", "border-radius": "35px"});
+				$(".typed-cursor").css({"display": "none"});
 			},
 			preStringTyped: function() {},
 			onStringTyped: function() {}
